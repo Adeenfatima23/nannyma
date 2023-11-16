@@ -1125,7 +1125,7 @@
         </div>
       </div>
       <div class="col-lg-5 align-self-center">
-        <form id="contact" action="" method="get">
+        <form id="contact" onsubmit="event.preventDefault()">
           <div class="row">
             <div class="col-lg-12">
               <fieldset>
@@ -1149,7 +1149,7 @@
             </div>
             <div class="col-lg-12">
               <fieldset>
-                	<button class="main-button" onclick="contactUs()" style="z-index:10000;">Submit Request</button>
+                	<button class="main-button" id="contact-us" style="z-index:10000;">Submit Request</button>
               </fieldset>
             </div>
           </div>
