@@ -20,5 +20,5 @@ let website = document.getElementById('website').value
 		alert('Website is required.')
 		return;	
 	}
-	window.location = `https://wa.me/+919618185563?text=Name%3A%20${name}%0ASurname%3A%20${surname}%0AEmail%3A%20${email}%0AWebsite%3A%20${website}`
+	window.location.replace(`https://wa.me/919618185563?text=Name%3A%20${name}%0ASurname%3A%20${surname}%0AEmail%3A%20${email}%0AWebsite%3A%20${website}`)
 }
