@@ -1,9 +1,9 @@
 console.log('start')
 function contactUs(){
-let name = document.getElementById('name')
-let surname = document.getElementById('surname')
-let email = document.getElementById('email')
-let website = document.getElementById('website')
+let name = document.getElementById('name').value
+let surname = document.getElementById('surname').value
+let email = document.getElementById('email').value
+let website = document.getElementById('website').value
 	if(name == ''){
 		alert('Name is required.')	
 	}
